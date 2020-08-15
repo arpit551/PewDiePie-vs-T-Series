@@ -1,0 +1,3 @@
+axios	index.js	/^var axios = require('axios');$/;"	v
+axios1	index.js	/^var axios1=require('axios');$/;"	v
+key	index.js	/^var key = 'AIzaSyCj_ktSD8E8vmHOIC6T4-S8t0Jsx491BOk';$/;"	v

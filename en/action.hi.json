@@ -1,0 +1,26 @@
+	{
+  "actions": [
+    {
+      "description": "hindi",
+      "name": "MAIN",
+      "fulfillment": {
+        "conversationName": "Battle"
+      },
+      "intent": {
+        "name": "actions.intent.MAIN",
+        "trigger": {
+          "queryPatterns": [
+            " Pewdiepie vs T Series से बात कराए"
+          ]
+        }
+      }
+    }
+  ],
+  "conversations": {
+    "Battle": {
+      "name": "Battle",
+      "url": "https://us-central1-imarpit02-d07bf.cloudfunctions.net/myfunctionotherlanguage"
+    }
+  },
+  "locale": "hi"
+}

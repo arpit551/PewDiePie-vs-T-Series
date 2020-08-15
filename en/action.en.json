@@ -1,0 +1,26 @@
+{
+  "actions": [
+    {
+      "description": "Default Welcome Intent",
+      "name": "MAIN",
+      "fulfillment": {
+        "conversationName": "Battle"
+      },
+      "intent": {
+        "name": "actions.intent.MAIN",
+        "trigger": {
+          "queryPatterns": [
+            "talk to Pewdiepie vs T Series"
+          ]
+        }
+      }
+    }
+  ],
+  "conversations": {
+    "Battle": {
+      "name": "Battle",
+      "url": "https://us-central1-imarpit02-d07bf.cloudfunctions.net/myfunction"
+    }
+  },
+  "locale": "en"
+}
